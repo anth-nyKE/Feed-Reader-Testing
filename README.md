@@ -25,5 +25,3 @@ incorporated the spec files, which are needed for testing
 
 * 4 Write up the tests using the `describe` and `it` Jasmine commands and resolve all errors
     to ensure that the code works correctly.
-
-
