@@ -96,7 +96,7 @@ $(function() {
             loadFeed(0, done);
         });
         it('has been rendered', function(done){
-            expect($('.feed').children().length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
             done()
         })  
 
@@ -116,11 +116,10 @@ $(function() {
                 })
             })
         })
+        //control to check that content changes
         it('has loaded', function(done){
-            expect(before === after).not.toBe(true)
+            expect(before === after).toBe(false)
             done()
         })
-
      })     
-
 }());

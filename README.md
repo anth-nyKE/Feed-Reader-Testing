@@ -15,15 +15,15 @@ incorporated the spec files, which are needed for testing
 ## How I did it
 
 * 1 The starter code from Udacity has all the preliminaries in check. I dove straight to the 
-*jasmine/spec/feedreader.js* file.
+    *jasmine/spec/feedreader.js* file.
 
-*2 The starter code has all the fields commented clearly, giving guidance on what test to be
-implemented where.
+* 2 The starter code has all the fields commented clearly, giving guidance on what test to be
+    implemented where.
 
 * 3 Run the `index.html` file in any localhost server. I used a VSCode extension called 
-*live server* by Ritwick Dey to run the file.
+    *live server* by Ritwick Dey to run the file.
 
-*4 Write up the tests using the `describe` and `it` Jasmine commands and resolve all errors
-to ensure that the code works correctly.
+* 4 Write up the tests using the `describe` and `it` Jasmine commands and resolve all errors
+    to ensure that the code works correctly.
 
 
